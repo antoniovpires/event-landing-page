@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#main-picture {
+    background-image: url("https://images.pexels.com/photos/6476783/pexels-photo-6476783.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    height: 115vh;
+}
+
+#main-picture-overshadow {
+    display: flex;
+    height: 100%;
+    background-color: rgba(255, 68, 0, 0.1);
+}
+
+#main-picture-content {
+    display: grid;
+    grid: auto / 60% 40%;
+    width: 71.2%;
+    margin: auto;
+    margin-top: 20vh;
+    align-items: center;
+}
+
+#second {
+    height: 500px;
+}
+
+#main-picture-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 90px;
+    width: 70%;
+    border-top: 5px solid rgb(253, 94, 245);
+    justify-self: end;
+}
+
+.cta-input-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.cta-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 90%;
+}
+
+.cta-div select,
+.cta-div input {
+    padding: 14px;
+
+}
+
+.cta-div button {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.cta-div p {
+    text-align: center;
+}
+
+#second {
+    display: grid;
+    grid: auto / 40% 50%;
+    width: 71.2%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 20px;
+    height: 60vh;
+}
+
+#second .second-image {
+    margin-top: -10vh;
+}
+
+#second .second-image img {
+    width: 100%;
+    height: 320px;
+}
+
+.second-quote {
+    padding-left: 30px;
+    border-left: 4px solid rgb(253, 94, 245);
+}
+
+.second-text button {
+    margin-top: 40px;
+}
+
+#indicadores-div {
+    height: 26vh;
+    background-color: orangered;
+    padding: 50px 75px;
+    display: flex;
+}
+
+#indicadores {
+    display: grid;
+    grid: auto / 25% 25% 25% 25%;
+    width: 80%;
+    margin: auto;
+}
+
+.indicator {
+    width: 50%;
+    border-bottom: 2px solid black;
+}
+
+.indicator h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.indicator p {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.p-content {
+    display: flex;
+    flex-direction: column;
+    width: 71.2%;
+    margin: auto;
+    padding-top: 90px;
+    padding-bottom: 120px;
+}
+
+.p-content button {
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.p-title {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.p-title p,
+.p-title h1{
+    margin: 0;
+}
+
+.p-pictures {
+    padding-top: 50px;
+    display: grid;
+    grid: auto / 25% 25% 25% 25%;
+    grid-row-gap: 70px;
+}
+
+.p-pictures div {
+    text-align: center;
+}
+
+.p-pictures div:hover h2 {
+    color: orangered;
+}
+
+.p-pictures div img {
+    max-width: 220px;
+    border-radius: 100%;
+}
+
+.p-pictures div h2,
+.p-pictures div p {
+    margin: 0;
+}
+
+.p-pictures div p {
+    color: gray;
+}
+
+.photo-text {
+    display: grid;
+    grid: auto / 50% 50%;
+    background-color: blue;
+    color: white;
+}
+
+.photo-text-content {
+    padding: 70px;
+    padding-right: 140px;
+}
+
+.footer-cta {
+    background-image: url('https://www.vidyard.com/media/video-for-event-marketing.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 100px 0px;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    color: white;
+    background-color: midnightblue;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 40px;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.footer-media {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-media div {
+    width: 40px;
+    height: 40px;
+    background: gainsboro;
+    border-radius: 100%;
+    border: 2px solid grey;
+}
+
+.newsletter {
+    background-color: purple;
+    height: 250px;
+    width: 70%;
+    margin: auto;
+    margin-top: -250px;
+    padding: 20px;
+}
+
+.newsletter input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 400px;
+    padding: 15px 15px 15px 0px;
+    text-align: left;
+}

@@ -1,0 +1,109 @@
+header {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  transition: 0.2s linear;
+}
+header.scrolled {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+}
+header .header-content {
+  display: flex;
+  padding: 10px 14vw;
+  justify-content: space-between;
+}
+header .logo,
+header .header-options,
+header .header-tags {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+header .logo img {
+  max-width: 60px;
+}
+header .logo h1 {
+  color: white;
+}
+header .header-options .header-tags {
+  gap: 50px;
+}
+header .header-options a {
+  font-size: 17px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+header .header-options .header-tags a {
+  color: white;
+}
+header .header-options .header-cta {
+  margin-left: 50px;
+  padding: 15px 30px;
+  border-radius: 4px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgb(49, 228, 228);
+  transition: 0.2s linear;
+  border: none;
+  cursor: pointer;
+}
+header .header-options .header-cta:hover {
+  background-color: rgb(253, 94, 245);
+}
+
+.escondido {
+  display: none;
+}
+
+.btn-primario {
+  padding: 15px 30px;
+  border-radius: 4px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgb(120, 53, 228);
+  transition: 0.2s linear;
+  border: none;
+  cursor: pointer;
+}
+.btn-primario:hover {
+  background-color: rgb(253, 94, 245);
+}
+
+.btn-transparente {
+  padding: 15px 30px;
+  border-radius: 4px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: transparent;
+  transition: 0.2s linear;
+  border: none;
+  cursor: pointer;
+  border: 1px solid white;
+}
+.btn-transparente:hover {
+  border: 1px solid rgb(253, 94, 245);
+}
+.btn-transparente:hover {
+  background-color: rgb(253, 94, 245);
+}
+
+#main-picture-text p {
+  font-size: 17px;
+  color: white;
+}
+#main-picture-text h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: white;
+}
+
+/*# sourceMappingURL=style_base.css.map */
