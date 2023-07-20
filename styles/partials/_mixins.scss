@@ -1,0 +1,26 @@
+@use 'variables' as v;
+
+@mixin button-base($color) {
+    padding: 15px 30px;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 900;
+    background-color: $color;
+    transition: 0.2s linear;
+    border: none;
+    cursor: pointer;
+
+    @if $color == transparent {
+        border: 1px solid white;
+
+        &:hover {
+            border: 1px solid v.$berkeley-blue;
+        }
+    }
+
+    &:hover {
+        background-color: v.$berkeley-blue;
+    }
+}
