@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style_base.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="header-content">
             <div class="logo">
-                <img src="https://freesvg.org/img/1530513141.png" alt="Logo da empresa">
-                <h1>Empresa</h1>
+                <span class="material-symbols-outlined">
+                    cruelty_free
+                </span>
+                <h1>Lapin</h1>
             </div>
             <div class="header-options">
                 <div class="header-tags">
                     <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Speakers</a>
-                    <a href="#">Schedule</a>
+                    <a href="#second">About</a>
+                    <a href="#speakers">Speakers</a>
+                    <a href="#sponsors">Sponsors</a>
                 </div>
                 <a href="#" class="header-cta">Buy Ticket</a>
             </div>
@@ -29,164 +33,119 @@
     </header>
     <div id="main-picture">
         <div id="main-picture-overshadow">
-            <div id="main-picture-content">
-                <div id="main-picture-text">
-                    <p>5 to 7 June 2023, Waterfront Hotel, London</p>
-                    <h1>Digital thinkers meet up</h1>
-                    <div>
-                        <button class="btn-primario">Buy ticket</button>
-                        <button class="btn-transparente">Add to calendar</button>
-                    </div>
-                </div>
-                <div id="main-picture-cta">
-                    <div class="cta-div">
-                        <h1>Register Now</h1>
-                        <p>How you transform your business as tech consumer, habits industry</p>
-                        <div class="cta-input-div">
-                            <input type="text" placeholder="Name">
-                            <input type="text" placeholder="Phone">
-                            <input type="text" placeholder="Enter your email">
-                            <select name="teste" id="teste">
-                                <option value="-1">Selecione</option>
-                                <option value="1">Selecione1</option>
-                                <option value="2">Selecione2</option>
-                            </select>
-                        </div>
-                        <button class="btn-primario">Register now</button>
-                    </div>
+            <div id="main-picture-text">
+                <p>5 to 7 August 2023, Nouvel Eiffel Hotel, Paris</p>
+                <h1>technological revolution</h1>
+                <div>
+                    <button class="btn-primario">Buy ticket</button>
+                    <button class="btn-transparente">Add to calendar</button>
                 </div>
             </div>
-
+            <div id="main-picture-cta">
+                <h1>Register Now</h1>
+                <p>Be connected to tech advancements all around the globe</p>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Phone">
+                <input type="text" placeholder="Enter your email">
+                <select name="teste" id="teste">
+                    <option value="-1">Selecione</option>
+                    <option value="1">Selecione1</option>
+                    <option value="2">Selecione2</option>
+                </select>
+                <button class="btn-primario">Register now</button>
+            </div>
         </div>
     </div>
     <div id="second">
-        <div class="second-text">
+        <div data-aos="fade-right" data-aos-delay="600" class="second-text">
             <h1>Why you should Join Event</h1>
             <p>
-                We are rethoric question ran over her cheek When she reached the first hills of the Italic Mountains, she 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum maiores voluptatum eius iure explicabo, 
                 <br>
                 <br>
-                <div class="second-quote">Throw myself down teems with vapour around me, and the meridian sun strikes the upper surface of the</div> 
+                <div class="second-quote">necessitatibus vel laudantium provident veniam excepturi nam vero debitis facere obcaecati assumenda totam dolorum minima doloremque!</div> 
                 <br>
                 <br>
-                Few stray gleams steal into the inner sanctuary grow familiar with the countless indescribable forms,
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus iste dicta alias odit itaque ex ipsam harum repellendus ea.
             </p>
             <button class="btn-primario">Learn more</button>
         </div>
-        <div class="second-image"><img src="https://www.vidyard.com/media/video-for-event-marketing.jpg" alt="teste"></div>
+        <div data-aos="flip-left" data-aos-delay="900" class="second-image"><img src="./images/user.jpg" alt="teste"></div>
     </div>
     <div id="indicadores-div">
-        <div id="indicadores">
-            <div class="indicator">
-                <h1>43+</h1>
-                <p>Our Visionary Speakers</p>
-            </div>
-            <div class="indicator">
-                <h1>62</h1>
-                <p>International Sponsors</p>
-            </div>
-            <div class="indicator">
-                <h1>28+</h1>
-                <p>Workshops We offer</p>
-            </div>
-            <div class="indicator">
-                <h1>950+</h1>
-                <p>Event Participants</p>
-            </div>
+        <div class="indicator">
+            <h1 class="num" data-val="13">0</h1>
+            <p>Our Visionary Speakers</p>
+        </div>
+        <div class="indicator">
+            <h1 class="num" data-val="8">0</h1>
+            <p>International Sponsors</p>
+        </div>
+        <div class="indicator">
+            <h1 class="num" data-val="28">0</h1>
+            <p>Workshops We offer</p>
+        </div>
+        <div class="indicator">
+            <h1 class="num" data-val="950">0</h1>
+            <p>Event Participants</p>
         </div>
     </div>
-    <div id="participantes-div">
-        <div class="p-content">
-            <div class="p-title">
-                <p>LISTEN TO THE</p>
-                <h1>Event Speakers</h1>
+    <div data-aos="flip-up" data-aos-delay="100" id="speakers" class="participantes-div">
+        <div class="p-title">
+            <p>LISTEN TO THE</p>
+            <h1>Event Speakers</h1>
+        </div>
+        <div class="p-pictures">
+            <div data-aos="flip-up" data-aos-delay="100" >
+                <img src="images/foto_perfil.png" alt="man picture">
+                <h2>Antônio Pires</h2>
+                <p>Founder, Instant</p>
             </div>
-            <div class="p-pictures">
-                <div>
-                    <img src="https://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/speaker1.jpg" alt="man picture">
-                    <h2>James Wan</h2>
-                    <p>Founder, Edilta</p>
-                </div>
-                <div>
-                    <img src="https://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/speaker1.jpg" alt="man picture">
-                    <h2>James Wan</h2>
-                    <p>Founder, Edilta</p>
-                </div>
-                <div>
-                    <img src="https://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/speaker1.jpg" alt="man picture">
-                    <h2>James Wan</h2>
-                    <p>Founder, Edilta</p>
-                </div>
-                <div>
-                    <img src="https://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/speaker1.jpg" alt="man picture">
-                    <h2>James Wan</h2>
-                    <p>Founder, Edilta</p>
-                </div>
-                <div>
-                    <img src="https://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/speaker1.jpg" alt="man picture">
-                    <h2>James Wan</h2>
-                    <p>Founder, Edilta</p>
-                </div>
-                <div>
-                    <img src="https://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/speaker1.jpg" alt="man picture">
-                    <h2>James Wan</h2>
-                    <p>Founder, Edilta</p>
-                </div>
-                <div>
-                    <img src="https://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/speaker1.jpg" alt="man picture">
-                    <h2>James Wan</h2>
-                    <p>Founder, Edilta</p>
-                </div>
-                <div>
-                    <img src="https://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/speaker1.jpg" alt="man picture">
-                    <h2>James Wan</h2>
-                    <p>Founder, Edilta</p>
-                </div>
+            <div data-aos="flip-up" data-aos-delay="300" >
+                <img src="images/profile-icon.jpg" alt="man picture">
+                <h2>James Wan</h2>
+                <p>Producer</p>
+            </div>
+            <div data-aos="flip-up" data-aos-delay="500" >
+                <img src="images/profile-icon.jpg" alt="man picture">
+                <h2>Sam Raimi</h2>
+                <p>Writer</p>
+            </div>
+            <div data-aos="flip-up" data-aos-delay="700" >
+                <img src="images/profile-icon.jpg" alt="man picture">
+                <h2>George A. Romero</h2>
+                <p>Director</p>
             </div>
         </div>
     </div>
     <div class="photo-text">
         <img src="https://www.vidyard.com/media/video-for-event-marketing.jpg" alt="event marketing">
-        <div class="photo-text-content">
+        <div>
             <h4>GET EXPERIENCE</h4>
-            <h1>Shift your perspective on digital business</h1>
-            <p>How you transform your business as technology, consumer, habits industry dynamic s change? Find out from those leading the charge.</p>
-        </div>
+            <h1>Play a major role in the tech revolution</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio est labore voluptate fugit nihil numquam illum. Modi, asperiores non eius nihil magnam deserunt pariatur laborum quam excepturi. Fugit, doloremque veritatis?</p>
+        </div> 
     </div>
-    <div id="participantes-div">
-        <div class="p-content">
-            <div class="p-title">
-                <p>WHO HELPS US</p>
-                <h1>Our Sponsors</h1>
-            </div>
-            <div class="p-pictures">
-                <div>
-                    <img src="https://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/speaker1.jpg" alt="man picture">
-                </div>
-                <div>
-                    <img src="https://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/speaker1.jpg" alt="man picture">
-                </div>
-                <div>
-                    <img src="https://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/speaker1.jpg" alt="man picture">
-                </div>
-                <div>
-                    <img src="https://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/speaker1.jpg" alt="man picture">
-                </div>
-                <div>
-                    <img src="https://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/speaker1.jpg" alt="man picture">
-                </div>
-                <div>
-                    <img src="https://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/speaker1.jpg" alt="man picture">
-                </div>
-                <div>
-                    <img src="https://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/speaker1.jpg" alt="man picture">
-                </div>
-                <div>
-                    <img src="https://demo.themewinter.com/wp/exhibz/wp-content/uploads/2018/12/speaker1.jpg" alt="man picture">
-                </div>
-            </div>
-            <button class="btn-primario">Be our sponsor</button>
+    <div class="participantes-div" data-aos="fade-up" data-aos-delay="1000" id="sponsors">
+        <div class="p-title">
+            <p>WHO HELPS US</p>
+            <h1>Our Sponsors</h1>
         </div>
+        <div class="sponsor-images">
+            <div>
+                <img src="images/company_logos/1200px-Stark_Industries.png" alt="man picture">
+            </div>
+            <div>
+                <img src="images/company_logos/141-1417312_generic-branding-generic-company-logo-png.png" alt="man picture">
+            </div>
+            <div>
+                <img src="images/company_logos/2bvmtpa7z0131.png" alt="man picture">
+            </div>
+            <div>
+                <img src="images/company_logos/Wayne_Enterprises_(DC_Comics_fictional_logo).png" alt="man picture">
+            </div>
+        </div>
+        <button class="btn-primario">Be our sponsor</button>
     </div>
     <div class="footer-cta">
         <h4>HURRY UP!</h4>
@@ -196,16 +155,15 @@
     <footer>
         <div class="newsletter">
             <h4>SUBSCRIBE TO NEWSLETTER</h4>
-            <h1>Want Something Extra?</h1>
+            <h1>Want to know more about the event?</h1>
             <input type="text" placeholder="Your email">
             <button class="btn-primario">SUBSCRIBE</button>
         </div>
         <div class="footer-info">
             <div class="footer-media">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <a href="https://www.linkedin.com/in/antoniovpires/" target="_blank"><i class="devicon-linkedin-plain"></i></a>
+                <a href="https://github.com/antoniovpires/" target="_blank"><i class="devicon-github-original"></i></a>
+                <a href="https://antoniovpires.github.io/personal-portfolio/" target="_blank"><span class="material-symbols-outlined">language</span></a>
             </div>
             <div class="footer-links">
                 <a href="#">About Eventime</a>
@@ -214,9 +172,10 @@
                 <a href="#">Tickets</a>
                 <a href="#">Venue</a>
             </div>
-            © 2023 PsychoPig. All rights reserved
+            © 2023 antoniovpires. All rights reserved
         </div>
     </footer>
 </body>
-<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script defer src="script.js"></script>
 </html>
