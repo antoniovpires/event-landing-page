@@ -212,6 +212,10 @@ header {
     }
 }
 
+#speakers {
+    background-color: aquamarine;
+}
+
 .participantes-div {
     display: flex;
     flex-direction: column;
@@ -309,7 +313,7 @@ header {
 
 footer {
     color: white;
-    background-color: midnightblue;
+    background-color: $berkeley-blue;
     text-align: center;
     padding-top: 200px;
     padding-bottom: 40px;

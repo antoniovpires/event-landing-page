@@ -219,6 +219,10 @@ header .header-options .header-cta:hover {
   flex-wrap: wrap;
 }
 
+#speakers {
+  background-color: aquamarine;
+}
+
 .participantes-div {
   display: flex;
   flex-direction: column;
@@ -305,7 +309,7 @@ header .header-options .header-cta:hover {
 
 footer {
   color: white;
-  background-color: midnightblue;
+  background-color: #1d3557;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 40px;
