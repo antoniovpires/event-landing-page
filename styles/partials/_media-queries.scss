@@ -1,0 +1,95 @@
+@media only screen and (max-width: 1380px) {
+    #main-picture {
+        height: 140vh !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #main-picture {
+        height: 80vh !important;
+    }
+
+    .header-content {
+        padding: 0px 2% !important;
+    }
+
+    .header-tags {
+        display: none !important;
+    }
+
+    #main-picture-overshadow {
+        grid: auto / auto !important;
+        padding: 0px 2% !important;
+    }
+
+    #main-picture-cta {
+        display: none !important;
+    }
+
+    #main-picture-text {
+        h1 {
+            font-size: 40px !important
+        }
+
+        div {
+            display: flex !important;
+            gap: 20px !important;
+            flex-direction: column-reverse;
+        }
+    }
+
+    #second {
+        width: 90% !important;
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    .second-image {
+        display: none !important;
+    }
+
+    #indicadores-div {
+        display: grid !important;
+        grid: auto / auto auto !important;
+        padding: 50px 1% !important;
+        height: 50vh !important;
+
+        .indicator {
+            h1 {
+                font-size: 50px;
+            }
+        }
+    }
+
+    .photo-text {
+        display: none !important;
+    }
+
+    .p-pictures {
+        grid: auto/ auto !important;
+    }
+
+    .sponsor-images {
+        grid: auto/ auto !important;
+    }
+
+    .participantes-div button {
+        width: 80% !important
+    }
+
+    .newsletter {
+        height: 40vh !important;
+
+        input {
+            width: 100% !important;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+    }
+
+    .footer-links {
+        flex-direction: column;
+    }
+  }

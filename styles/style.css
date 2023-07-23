@@ -1,77 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@200;300;400;500;600;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
-@media only screen and (max-width: 1380px) {
-  #main-picture {
-    height: 140vh !important;
-  }
+#second {
+  background-color: yellow !important;
 }
-@media only screen and (max-width: 1200px) {
-  #main-picture {
-    height: 80vh !important;
-  }
-  .header-content {
-    padding: 0px 2% !important;
-  }
-  .header-tags {
-    display: none !important;
-  }
-  #main-picture-overshadow {
-    grid: auto/auto !important;
-    padding: 0px 2% !important;
-  }
-  #main-picture-cta {
-    display: none !important;
-  }
-  #main-picture-text h1 {
-    font-size: 40px !important;
-  }
-  #main-picture-text div {
-    display: flex !important;
-    gap: 20px !important;
-    flex-direction: column-reverse;
-  }
-  #second {
-    width: 90% !important;
-    display: flex !important;
-    flex-direction: column;
-  }
-  .second-image {
-    display: none !important;
-  }
-  #indicadores-div {
-    display: grid !important;
-    grid: auto/auto auto !important;
-    padding: 50px 1% !important;
-    height: 50vh !important;
-  }
-  #indicadores-div .indicator h1 {
-    font-size: 50px;
-  }
-  .photo-text {
-    display: none !important;
-  }
-  .p-pictures {
-    grid: auto/auto !important;
-  }
-  .sponsor-images {
-    grid: auto/auto !important;
-  }
-  .participantes-div button {
-    width: 80% !important;
-  }
-  .newsletter {
-    height: 40vh !important;
-  }
-  .newsletter input {
-    width: 100% !important;
-  }
-  .newsletter button {
-    margin-top: 10px;
-  }
-  .footer-links {
-    flex-direction: column;
-  }
-}
+
 * {
   font-family: "DM Sans", sans-serif;
 }
@@ -201,7 +133,7 @@ header .header-options .header-cta:hover {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 120vh;
+  height: 115vh;
 }
 
 #main-picture-overshadow {
@@ -210,7 +142,7 @@ header .header-options .header-cta:hover {
   height: 100%;
   background-color: rgba(19, 153, 236, 0.8);
   align-items: center;
-  padding: 0px 14% 0px 14%;
+  padding: 0% 14% 0% 14%;
 }
 
 #main-picture-cta {
@@ -219,6 +151,8 @@ header .header-options .header-cta:hover {
   align-items: center;
   background-color: white;
   padding: 40px;
+  padding-bottom: 90px;
+  height: 60%;
   width: 70%;
   border-top: 5px solid #e63946;
   justify-self: end;
@@ -248,6 +182,7 @@ header .header-options .header-cta:hover {
   padding-bottom: 80px;
   justify-content: space-between;
   padding-top: 20px;
+  height: 60vh;
 }
 #second .second-text .second-quote {
   padding-left: 30px;
@@ -266,6 +201,7 @@ header .header-options .header-cta:hover {
 #indicadores-div {
   display: grid;
   grid: auto/25% 25% 25% 25%;
+  height: 26vh;
   background-color: #D8DDDE;
   padding: 50px 10%;
   justify-content: space-evenly;
@@ -359,17 +295,9 @@ header .header-options .header-cta:hover {
   background-color: #457b9d;
   color: white;
 }
-.photo-text img {
-  width: 100%;
-}
 .photo-text div {
-  display: flex;
-  flex-direction: column;
-  margin: 0px 20px;
-  justify-content: center;
-}
-.photo-text div h4 {
-  margin: 0;
+  padding: 70px;
+  padding-right: 140px;
 }
 
 .footer-cta {
@@ -449,4 +377,4 @@ footer .footer-info .footer-links a:hover {
   text-decoration: underline;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=style.css.map */

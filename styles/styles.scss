@@ -108,7 +108,7 @@ header {
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size: cover;
-    height: 115vh;
+    height: 120vh;
 }
 
 #main-picture-overshadow {
@@ -117,7 +117,7 @@ header {
     height: 100%;
     background-color: $cerulean-overshadow;
     align-items: center;
-    padding: 0% 14% 0% 14%;
+    padding: 0px 14% 0px 14%;
 }
 
 #main-picture-cta {
@@ -126,8 +126,6 @@ header {
     align-items: center;
     background-color: white;
     padding: 40px;
-    padding-bottom: 90px;
-    height: 60%;
     width: 70%;
     border-top: 5px solid $red-pantone;
     justify-self: end;
@@ -163,7 +161,6 @@ header {
     padding-bottom: 80px;
     justify-content: space-between;
     padding-top: 20px;
-    height: 60vh;
 
     .second-text {
         .second-quote {
@@ -188,7 +185,6 @@ header {
 #indicadores-div {
     display: grid;
     grid: auto / 25% 25% 25% 25%;
-    height: 26vh;
     background-color: $non-photo-blue;
     padding: 50px 10%;
     justify-content: space-evenly;
@@ -294,9 +290,19 @@ header {
     background-color: $cerulean;
     color: white;
 
+    img {
+        width: 100%;
+    }
+
     div {
-        padding: 70px;
-        padding-right: 140px;
+        display: flex;
+        flex-direction: column;
+        margin: 0px 20px;
+        justify-content: center;
+
+        h4 {
+            margin: 0;
+        }
     }
 }
    
